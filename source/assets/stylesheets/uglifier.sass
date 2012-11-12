@@ -1,10 +1,11 @@
-.btn-large, .btn-primary, .btn-small, .btn-mini, .btn, input, pre, .hero-unit, .dropdown-menu
+.btn-large, .btn-primary, .btn-small, .btn-mini, .btn, input, pre, .hero-unit, .dropdown-menu, .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner, .navbar-inner
 	:border-radius 0px
 	:background-image none
 	:box-shadow none
 
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .navbar-search .search-query
 	:border-radius 0px
+	:border 1px solid #ddd
 	&:focus
 		:box-shadow none
 		:border 1px solid #ccc
@@ -20,3 +21,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .dropdown-menu li a:hover
 	:background #bbb
+
+.container.bordered
+	:border 1px solid #ddd

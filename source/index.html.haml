@@ -1,31 +1,30 @@
-.hero-unit
-  %h1 This is the homepage
-  %p This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-  = link_to 'Learn More >>', '#', :class => 'btn btn-large btn-primary'
-
-%pre
-  &lt;p&gt;Sample text here...&lt;/p&gt;
-
-
-%form
-  %fieldset
-    %legend Legend
-    %label Label name
-    %input{ :type => "text", :placeholder => "Type something…"}
-    %span.help-block
-      Example block-level help text here
-    %label.checkbox
-      %input{:type => "checkbox"}
-        Check me out
-    %button{ :type => "submit", :class => "btn"}
-      Submit
-
-
-= link_to 'Learn More >>', '#', :class => 'btn btn-large btn-primary'
-= link_to 'Learn More >>', '#', :class => 'btn btn btn-primary'
-= link_to 'Learn More >>', '#', :class => 'btn btn-small btn-primary'
-= link_to 'Learn More >>', '#', :class => 'btn btn-mini btn-primary'
-= link_to 'Learn More >>', '#', :class => 'btn btn-large'
-= link_to 'Learn More >>', '#', :class => 'btn'
-= link_to 'Learn More >>', '#', :class => 'btn btn-small'
-= link_to 'Learn More >>', '#', :class => 'btn btn-mini'
+.container.main_content
+  %h2
+    Schools
+  .container.bordered
+    .navbar
+      .navbar-inner
+        %ul.nav
+          %li
+            = link_to 'Schools'
+          %li
+            = link_to 'Imports'
+    .container-inner
+      %form.navbar-search.pull-left
+        %input.search-query{ :placeholder => "Search"}
+      = link_to 'Add School', '#', :class => 'btn btn-small pull-right'
+      .schools.row-fluid
+        .span6.school
+          %h5 School Name
+        .span6.school
+          %h5 School Name
+      .row-fluid
+        .span6.school
+          %h5 School Name
+        .span6.school
+          %h5 School Name
+      .row-fluid
+        .span6.school
+          %h5 School Name
+        .span6.school
+          %h5 School Name
