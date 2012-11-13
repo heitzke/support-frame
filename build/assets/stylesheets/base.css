@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title></title>
+    <meta content='' name='description' />
+    <meta content='' name='author' />
+    <meta content='width=device-width,initial-scale=1' name='viewport' />
+    <link href='/assets/stylesheets/screen.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand'>
+            GradesFirst
+          </a>
+          <div class='login dropdown'>
+            <span>Welcome,</span>
+            <a class='dropdown-toggle' data-toggle='dropdown'>
+              Grades
+              <b class='caret'></b>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Action</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      /* line 1, ../stylesheets/base.sass */
+      .login { float: right; margin-top: 9px; }
+      /* line 4, ../stylesheets/base.sass */
+      .login a { color: #444444; background: #cccccc; padding: 3px 5px; }
+      
+      /* line 9, ../stylesheets/base.sass */
+      .main_content { margin-top: 50px; }
+      
+      /* line 12, ../stylesheets/base.sass */
+      .container-inner { padding: 10px; }
+      /* line 14, ../stylesheets/base.sass */
+      .container-inner:after { clear: both; }
+      
+      /* line 16, ../stylesheets/base.sass */
+      .row-fluid:before { clear: both; }
+      
+      /* line 18, ../stylesheets/base.sass */
+      .schools { margin-top: 20px; display: inline-block; }
+      
+      /* line 21, ../stylesheets/base.sass */
+      .school { border: 1px solid #eeeeee; display: inline-block; }
+    </div>
+    <footer>
+      <script src='assets/js/vendor/modernizr-2.0.6.min.js'></script>
+      <script src='assets/js/vendor/jquery-1.8.0.min.js'></script>
+      <script src='assets/js/vendor/bootstrap.min.js'></script>
+    </footer>
+  </body>
+</html>

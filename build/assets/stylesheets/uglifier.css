@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title></title>
+    <meta content='' name='description' />
+    <meta content='' name='author' />
+    <meta content='width=device-width,initial-scale=1' name='viewport' />
+    <link href='/assets/stylesheets/screen.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div class='navbar navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand'>
+            GradesFirst
+          </a>
+          <div class='login dropdown'>
+            <span>Welcome,</span>
+            <a class='dropdown-toggle' data-toggle='dropdown'>
+              Grades
+              <b class='caret'></b>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Action</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      /* line 1, ../stylesheets/uglifier.sass */
+.btn-large, .btn-primary, .btn-small, .btn-mini, .btn, input, pre, .hero-unit, .dropdown-menu, .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner, .navbar-inner { border-radius: 0px; background-image: none; box-shadow: none; }
+
+/* line 6, ../stylesheets/uglifier.sass */
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .navbar-search .search-query { border-radius: 0px; border: 1px solid #dddddd; }
+/* line 9, ../stylesheets/uglifier.sass */
+select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus, .navbar-search .search-query:focus { box-shadow: none; border: 1px solid #cccccc; }
+/* line 12, ../stylesheets/uglifier.sass */
+select:hover, textarea:hover, input[type="text"]:hover, input[type="password"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="date"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, input[type="number"]:hover, input[type="email"]:hover, input[type="url"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="color"]:hover, .uneditable-input:hover, .navbar-search .search-query:hover { border: 1px solid #cccccc; }
+
+/* line 15, ../stylesheets/uglifier.sass */
+.btn-primary { background-color: #bbbbbb; color: #444444; }
+/* line 18, ../stylesheets/uglifier.sass */
+.btn-primary:hover { background-color: #999999; color: white; }
+
+/* line 22, ../stylesheets/uglifier.sass */
+.dropdown-menu li a:hover { background: #bbbbbb; }
+
+/* line 25, ../stylesheets/uglifier.sass */
+.container.bordered { border: 1px solid #dddddd; }
+    </div>
+    <footer>
+      <script src='assets/js/vendor/modernizr-2.0.6.min.js'></script>
+      <script src='assets/js/vendor/jquery-1.8.0.min.js'></script>
+      <script src='assets/js/vendor/bootstrap.min.js'></script>
+    </footer>
+  </body>
+</html>
