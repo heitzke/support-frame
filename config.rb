@@ -7,9 +7,9 @@
 # require 'susy'
 
 # Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+compass_config do |config|
+ config.output_style = :compact
+end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -47,11 +47,11 @@
 #   end
 # end
 
-set :css_dir, 'css'
+set :css_dir, 'assets/stylsheets'
 
-set :js_dir, 'js'
+set :js_dir, 'assets/js'
 
-set :images_dir, 'img'
+set :images_dir, 'assets/img'
 
 # Build-specific configuration
 configure :build do
