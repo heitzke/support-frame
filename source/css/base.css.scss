@@ -27,10 +27,59 @@
   margin-top: 20px;
   display: inline-block;
 }
+[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {
+  float: left;
+}
 
+.navbar-search {
+  width: 85%;
+  input {
+    height: 30px;
+    font-size: 1.2em;
+    width: 50%;
+  }
+
+}
 .school {
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
   display: inline-block;
+  margin-bottom: 22px;
+  float: left;
+  .content {
+    padding: 10px;
+    float: left;
+  }
+  h5 {
+    float: left;
+    font-size: 1.3em;
+  }
+  a.login_link {
+    float: right;
+    color: #777;
+    margin-top: 5px;
+    &:after {
+      clear: both;
+    }
+  }
+  .actions {
+    display: block;
+    width: 100%;
+    float: left;
+    &:before {
+      clear: both;
+    }
+    a {
+      width: 14%;
+    }
+  }
+  .tags {
+    margin-top: 7px;
+    float: left;
+    color: #999;
+    a {
+      color: #777;
+    }
+  }
 }
 
 
