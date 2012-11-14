@@ -1,26 +1,34 @@
-.btn-large, .btn-primary, .btn-small, .btn-mini, .btn, input, pre, .hero-unit, .dropdown-menu, .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner, .navbar-inner
-	:border-radius 0px
-	:background-image none
-	:box-shadow none
+.btn-large, .btn-primary, .btn-small, .btn-mini, .btn, input, pre, .hero-unit, .dropdown-menu, .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner, .navbar-inner {
+	border-radius: 0px;
+  background-image: none;
+  box-shadow: none;
+}
 
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .navbar-search .search-query
-	:border-radius 0px
-	:border 1px solid #ddd
-	&:focus
-		:box-shadow none
-		:border 1px solid #ccc
-	&:hover
-		:border 1px solid #ccc
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, .navbar-search .search-query {
+  border-radius: 0px;
+  border: 1px solid #ddd;
+  &:focus {
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+  &:hover {
+    border: 1px solid #ccc;
+  }
+}
 
-.btn-primary
-	:background-color #bbb
-	:color #444
-	&:hover
-		:background-color #999
-		:color #fff
+.btn-primary {
+  background-color: #bbb;
+  color: #444;
+  &:hover {
+    background-color: #999;
+    color: #fff;
+  }
+}
 
-.dropdown-menu li a:hover
-	:background #bbb
+.dropdown-menu li a:hover {
+  background: #bbb;
+}
 
-.container.bordered
-	:border 1px solid #ddd
+.container.bordered {
+  border: 1px solid #ddd;
+}
