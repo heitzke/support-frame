@@ -17,5 +17,31 @@
 /* line 26, base.css.scss */
 .schools { margin-top: 20px; display: inline-block; }
 
-/* line 31, base.css.scss */
-.school { border: 1px solid #eee; display: inline-block; }
+/* line 30, base.css.scss */
+[class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] { float: left; }
+
+/* line 34, base.css.scss */
+.navbar-search { width: 85%; }
+/* line 36, base.css.scss */
+.navbar-search input { height: 30px; font-size: 1.2em; width: 50%; }
+
+/* line 43, base.css.scss */
+.school { border: 1px solid #ddd; display: inline-block; margin-bottom: 22px; float: left; }
+/* line 48, base.css.scss */
+.school .content { padding: 10px; float: left; }
+/* line 52, base.css.scss */
+.school h5 { float: left; font-size: 1.3em; }
+/* line 56, base.css.scss */
+.school a.login_link { float: right; color: #777; margin-top: 5px; }
+/* line 60, base.css.scss */
+.school a.login_link:after { clear: both; }
+/* line 64, base.css.scss */
+.school .actions { display: block; width: 100%; float: left; }
+/* line 68, base.css.scss */
+.school .actions:before { clear: both; }
+/* line 71, base.css.scss */
+.school .actions a { width: 14%; }
+/* line 75, base.css.scss */
+.school .tags { margin-top: 7px; float: left; color: #999; }
+/* line 79, base.css.scss */
+.school .tags a { color: #777; }

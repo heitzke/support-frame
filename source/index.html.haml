@@ -6,12 +6,12 @@
       .navbar-inner
         %ul.nav
           %li
-            = link_to 'Schools'
+            = link_to 'Schools', 'index.html'
           %li
-            = link_to 'Imports'
+            = link_to 'Imports', 'imports.html'
     .container-inner
       %form.navbar-search.pull-left
-        %input.search-query{ :placeholder => "Search"}
+        %input.search-query{ :placeholder => "Search by school name or tag"}
       = link_to 'Add School', 'school.html', :class => 'btn btn-small pull-right'
       .schools.row-fluid
         .span6.school
