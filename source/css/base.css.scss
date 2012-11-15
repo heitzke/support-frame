@@ -6,14 +6,22 @@
     background: #ccc;
     padding: 3px 5px;
   }
+  ul {
+    li a {
+      background: none;
+      &:hover {
+        background: #ccc;
+      }
+    }
+  }
 }
 
 .main_content {
-  margin-top: 50px;
+  margin: 50px 0 30px 0;
 }
 
 .container-inner {
-  padding: 10px;
+  padding: 10px 10px 50px 10px;
   &:after {
     clear: both;
   }
@@ -82,4 +90,41 @@
   }
 }
 
+form {
+  .form_row {
+    margin: 0 0 10px 0;
+      input {
+        border: 1px solid #ddd;
+        width: 85%;
+        height: 25px;
+    }
+  }
+}
+.save_button {
+  position: fixed;
+  background: #eee;
+  z-index: 9999;
+  bottom: 10px;
+  width: 1150px;
+  .cancel {
+    color: #666;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0 0 10px;
+  }
+}
 
+.settings_accordion {
+  border:1px solid #ccc;
+  width: auto;
+  padding: 4px 10px;
+  margin-bottom: 15px;
+  &:hover {
+    background: #eee;
+  }
+  h3 a {
+    color: #333;
+    width: 100%;
+    display: block;
+  }
+}

@@ -6,7 +6,171 @@
       .navbar-inner
         %ul.nav
           %li
-            = link_to 'Schools'
+            = link_to 'Schools', 'index.html'
           %li
-            = link_to 'Imports'
+            = link_to 'Imports', 'imports.html'
     .container-inner
+      %h3 School Basics
+      %form
+        .form_row.row-fluid
+          .span6
+            %label School Name
+            %input
+          .span6
+            %label School URL
+            %input
+        .form_row.row-fluid
+          .span6
+            %label SAML
+            %input
+          .span6
+            %label Name of Something
+            %input
+
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse'} 
+            [+] School Branding
+        #collapse.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse2'} 
+            [+] SAML 
+        #collapse2.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse3'} 
+            [+] Conversations
+        #collapse3.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse4'} 
+            [+] Modules
+        #collapse4.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse5'} 
+            [+] User Settings
+        #collapse5.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse6'} 
+            [+] Single Sign On
+        #collapse6.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+      .settings_accordion
+        %h3
+          %a{ 'data-toggle' => 'collapse', 'data-target' => '#collapse7'} 
+            [+] School Groups
+        #collapse7.collapse
+          %form
+            .form_row.row-fluid
+              .span6
+                %label School Name
+                %input
+              .span6
+                %label School URL
+                %input
+            .form_row.row-fluid
+              .span6
+                %label SAML
+                %input
+              .span6
+                %label Name of Something
+                %input
+
+      .save_button
+        = link_to 'Save Settings', '/index.html', :class => 'pull-left btn btn-large'
+        = link_to 'cancel', '/index.html', :class => 'cancel'       
+
+:javascript
+  $(".collapse").collapse()    
