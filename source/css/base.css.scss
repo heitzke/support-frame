@@ -106,6 +106,9 @@ form {
   z-index: 9999;
   bottom: 10px;
   width: 1150px;
+  .btn {
+    background: #aaa;
+  }
   .cancel {
     color: #666;
     display: inline-block;
@@ -127,4 +130,44 @@ form {
     width: 100%;
     display: block;
   }
+}
+
+.bs-docs-sidenav {
+    background-color: #FFFFFF;
+    border-radius: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 170px;
+    a {
+      color: #666;
+    }
+}
+.bs-docs-sidenav > li > a {
+    border: 1px solid #E5E5E5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+}
+
+.bs-docs-sidenav > .active > a {
+    border: 0 none;
+    padding: 9px 15px;
+    position: relative;
+    z-index: 2;
+}
+.bs-docs-sidenav .icon-chevron-right {
+    float: right;
+    margin-right: -6px;
+    margin-top: 2px;
+    opacity: 0.25;
+}
+.bs-docs-sidenav > li > a:hover {
+    background-color: #F5F5F5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+    opacity: 0.5;
+}
+
+.bs-docs-sidenav.affix {
+    top: 40px;
 }

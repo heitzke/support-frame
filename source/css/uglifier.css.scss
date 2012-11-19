@@ -29,6 +29,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   background: #bbb;
 }
 
-.container.bordered {
+.bordered {
   border: 1px solid #ddd;
+}
+.nav-list > .active > a, .nav-list > .active > a:hover {
+  background: #bbb;
 }
